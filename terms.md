@@ -28,9 +28,11 @@ Giveaways run through Invitree are organised by the server, not by Invitree. The
 
 ## 4. Premium and payments
 
-- Premium costs €3.99 per month per server, billed through Stripe.
+- Premium costs €4.99 per month (or €49.99 per year) per server, billed through Stripe.
 - It renews automatically until you cancel. After cancelling, Premium stays active until the end of the paid period.
-- Payments are not refunded for partial months, except where the law requires it.
+- Payments are not refunded for partial billing periods, except where the law requires it.
+- The yearly plan is billed once per year and costs the same as 10 months (2 months free).
+- When Premium ends or is not renewed, the server goes back to the free limits. Your history is not deleted: older history is only hidden from view until Premium is active again.
 - Prices may change; we announce price changes at least 30 days in advance and they apply from your next billing period.
 
 ## 5. Availability
@@ -47,12 +49,8 @@ Invitree is provided without warranty. To the extent the law allows, we are not 
 
 ## 8. Privacy
 
-How we handle data is described in the [privacy policy](https://djorr.github.io/invitree-legal).
+How we handle data is described in the [privacy policy](https://djorr.github.io/invitree-legal/privacy/).
 
 ## 9. Changes
 
 We may update these terms. Meaningful changes are announced in the changelog; continuing to use Invitree after a change means you accept it.
-
-
----
-*This document is also published at https://djorr.github.io/invitree-legal/terms/*

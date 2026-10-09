@@ -4,7 +4,6 @@ title: Invitree – Privacy Policy
 permalink: /privacy/
 ---
 
-
 # Privacy policy
 
 *Last updated: 10 October 2026*
@@ -13,7 +12,6 @@ This policy explains what the hosted Invitree bot and dashboard store, why, and 
 
 > In short: Invitree stores Discord IDs and the facts it needs to count invites. It **never** stores the content of messages, and it never sells or shares data.
 
-
 ## What we store
 
 ### About members of servers that use Invitree
@@ -21,14 +19,14 @@ This policy explains what the hosted Invitree bot and dashboard store, why, and 
 | Data | Why |
 |---|---|
 | Discord user ID, username and avatar | To show who invited whom. |
-| Account creation date | For the account-age check of [fake detection](https://djorr.github.io/invitree-legal). |
+| Account creation date | For the account-age check of [fake detection](/features/fraud-detection). |
 | Join and leave times | To count regular and left invites. |
 | Invite code used, inviter ID, source link and campaign | The core of invite tracking. |
-| Fake/verified flags and the reasons for a flag | Fake detection and [verified invites](https://djorr.github.io/invitree-legal). |
-| Number of messages per day | [Message counting](https://djorr.github.io/invitree-legal). Only the number, never the text. |
-| Bonus invites, reward roles granted | [Rewards](https://djorr.github.io/invitree-legal). |
-| Giveaway entries and winners | [Giveaways](https://djorr.github.io/invitree-legal). |
-| Audit log entries | A record of actions in the server, see [logs](https://djorr.github.io/invitree-legal). |
+| Fake/verified flags and the reasons for a flag | Fake detection and [verified invites](/features/verified-invites). |
+| Number of messages per day | [Message counting](/features/message-counting). Only the number, never the text. |
+| Bonus invites, reward roles granted | [Rewards](/features/rewards). |
+| Giveaway entries and winners | [Giveaways](/features/giveaways). |
+| Audit log entries | A record of actions in the server, see [logs](/features/logs). |
 
 ### About servers
 
@@ -51,10 +49,9 @@ Payments are handled by Stripe. We store the Stripe customer and subscription ID
 
 ## How long we keep it
 
-- Member data is kept while the bot is in the server, so your history survives a temporary kick.
-- When the bot has been removed from a server for **90 days**, that server's data is deleted.
-- Audit log entries older than the plan's history (7 days on Free, 365 days on Premium) are deleted.
-- Daily message counts older than 365 days are deleted.
+- A server's data is kept for as long as the bot is in that server.
+- History is never deleted because of the plan, also not when Premium expires. The plan only limits how far back you can *view* it in the dashboard (30 days of statistics and logs and 7 days of audit log on Free, everything on Premium). Renewing Premium makes the full history visible again.
+- A server's data is deleted **90 days** after the bot is removed from it (so your history survives a temporary kick), or earlier on request.
 
 ## Who can see it
 
@@ -72,7 +69,3 @@ If this policy changes in a meaningful way, we will update the date at the top a
 ## Contact
 
 Questions: open an issue on [GitHub](https://github.com/Djorr/Invitetree/issues) or use the support server.
-
-
----
-*This document is also published at https://djorr.github.io/invitree-legal/privacy/*
