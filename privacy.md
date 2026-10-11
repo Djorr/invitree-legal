@@ -51,7 +51,7 @@ Payments are handled by Stripe. We store the Stripe customer and subscription ID
 
 - A server's data is kept for as long as the bot is in that server.
 - History is never deleted because of the plan, also not when Premium expires. The plan only limits how far back you can *view* it in the dashboard (30 days of statistics and logs and 7 days of audit log on Free, everything on Premium). Renewing Premium makes the full history visible again.
-- A server's data is deleted **90 days** after the bot is removed from it (so your history survives a temporary kick), or earlier on request.
+- A server's data is kept when the bot is removed or kicked, so the server's admins can still view their full history in the dashboard (read-only) and continue where they left off when they re-add the bot. Data is only deleted when a server admin requests it.
 
 ## Who can see it
 
@@ -59,7 +59,7 @@ Members of a server can see invite counts and leaderboards through commands. Adm
 
 ## Deleting your data
 
-- **Server owners**: remove the bot from your server; all data is deleted after 90 days. For immediate deletion, ask in our support server or open an issue on GitHub.
+- **Server owners**: removing the bot keeps your data (read-only in the dashboard). To have it deleted, open an issue on GitHub or contact us.
 - **Individual members**: ask for removal of your data from one or all servers through the same channels. We will confirm within 30 days.
 
 ## Changes
